@@ -1,0 +1,10 @@
+{
+  "name": "DeezerJS",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Deezer API wrapper for Browser and Node.js",
+  "main": "./src/main.ts",
+  "repository": "https://github.com/Bren00x/DeezerJS.git",
+  "author": "bren00x <bren00x@github.com>",
+  "license": "MIT"
+}
