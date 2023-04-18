@@ -3,17 +3,14 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Deezer API wrapper for Browser and Node.js",
-  "main": "./src/index.ts",
+  "main": "./src/index.js",
   "repository": "https://github.com/Bren00x/DeezerJS.git",
   "author": "bren00x <bren00x@github.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "node test.js"
   },
-  "devDependencies": {
-    "@types/node": "^18.15.11",
-    "typescript": "^5.0.4"
-  },
+  "devDependencies": {},
   "dependencies": {
     "wretch": "^2.5.2"
   }
