@@ -8,7 +8,7 @@
   "author": "bren00x <bren00x@github.com>",
   "license": "MIT",
   "scripts": {
-    "build": "node test.js"
+    "test": "node test.js"
   },
   "devDependencies": {},
   "dependencies": {
