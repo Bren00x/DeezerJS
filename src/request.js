@@ -11,7 +11,7 @@ const errors = {
         error: "Item limit has been reached.",
     },
     200: {
-        error: "Auth token is invalid.",
+        error: "An active access token must be used to query information about the current user.",
     },
     300: {
         error: "Auth token is invalid.",
@@ -46,7 +46,7 @@ const api = wretch("https://api.deezer.com", { mode: "cors" })
     .resolve(async (r) => {
         let json = await r.json();
         if (json.error) {
-            console.log(json.error.code, json.error.message, json.error.type);
+            // console.log(json.error.code, json.error.message, json.error.type);
             throw errors[json.error.code].error;
         }
         return json;
