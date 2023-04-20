@@ -3,11 +3,14 @@ import * as Deezer from "./src/index.js"
 // console.log()
 
 (async()=>{
+    // let search = await Deezer.Search("Lets get loud", {
+    //     limit: 5,
+    //     order: 'DURATION_ASC'
+    // });
+    // console.log(await search)
+    // Deezer.setToken("fr3DxtgSIrsohLRKwAFnKXcoCV5DnzAoVu1gLJbLa7J0Mth1MVp")
 
-
-    // Deezer.setToken("fr4OHtMMRmx4YbU1GmApkCUnjedpXkZp78MBkXr71H1FUwv23mj")
-
-    // let album = await Deezer.Album.getAlbum('302127');
+    // let album = await Deezer.Album.getAlbum(await search.data[0].album.id);
     // console.log(await album.title)
 
     // let favorite = await Deezer.Album.favoriteAlbum('302127');
@@ -24,6 +27,6 @@ import * as Deezer from "./src/index.js"
     // console.log(track.title, track.artist.name, track.album.link)
     // console.log(track)
 
-    // let favorite = await Deezer.Track.favoriteTrack(1444890902);
+    // let favorite = await Deezer.Track.favoriteTrack(await search.data[0].id);
     // console.log(await favorite.title)
 })()
