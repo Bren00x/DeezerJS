@@ -9,8 +9,8 @@ Deezer API wrapper for Browser and Node.js
     - [x] get user albums
     - [x] get user artists
     - [x] get user playlists
-    - [ ] get user favorites
-    - [ ] get user recent listen history
+    - [x] get user favorites
+    - [x] get user recent listen history
 
 - [ ] Albums
     - [x] get album
@@ -23,7 +23,7 @@ Deezer API wrapper for Browser and Node.js
     - [x] get artist
     - [x] follow artist
     - [x] unfollow artist
-    - [ ] get tracks
+    - [x] get albums
     - [ ] get fans
 
 - [ ] Track

@@ -2,7 +2,7 @@ import { api, getToken } from "../request.js";
 
 export async function getArtist(id, options = {}) {
     let res = await api.url(`/artist/${id}`)
-    .query({...getToken()})
+    .query({...getToken(), ...options})
     .get();
     return res;
 }

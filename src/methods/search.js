@@ -1,3 +1,3 @@
-export default function Album() {
-    return {}
+export async function search(query, options) {
+
 }

@@ -9,8 +9,8 @@
 export { setToken } from "./request.js";
 export * as Album from "./methods/album.js";
 export * as Artist from "./methods/artist.js";
-export * as Genre from "./methods/genre.js";
+// export * as Genre from "./methods/genre.js";
 export * as Playlist from "./methods/playlist.js";
-export * as Search from "./methods/search.js";
+// export { Search } from "./methods/search.js";
 export * as Track from "./methods/track.js";
 export * as User from "./methods/user.js";
