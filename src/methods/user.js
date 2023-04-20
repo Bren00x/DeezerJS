@@ -1,4 +1,4 @@
-import api from "../request.js"
+import {api} from "../request.js"
 
 export async function getUser(id) {
     let res = await api.get(`/user/${id}`)
