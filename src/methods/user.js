@@ -20,8 +20,12 @@ export async function getPlaylists(id) {
     return res;
 }
 
-
 export async function getFavorites(id) {
-    let res = await api.get(`/user/${id}/albums`)
+    let res = await api.get(`/user/${id}/tracks`)
+    return res;
+}
+
+export async function getHistory(id) {
+    let res = await api.get(`/user/${id}/history`)
     return res;
 }
