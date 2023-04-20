@@ -1,32 +1,43 @@
 # DeezerJS
 Deezer API wrapper for Browser and Node.js
+---
 
+### **Roadmap**
 
-### Roadmap
-
-- [-] User
-    - [ ] get user
-    - [ ] get user albums
-    - [ ] get user artists
-    - [ ] get user playlists
+- [ ] User
+    - [x] get user
+    - [x] get user albums
+    - [x] get user artists
+    - [x] get user playlists
     - [ ] get user favorites
     - [ ] get user recent listen history
 
+- [ ] Albums
+    - [x] get album
+    - [x] favorite album
+    - [x] unfavorite album
+    - [ ] get album tracks
+    - [ ] get album fans
 
-- [ ] Server Connectivity Tests
-    - [ ] Websockets
-    - [ ] HTTP Long Polling
-- [ ] Notification Testing
-    - [ ] Servers
-        - [ ] One Signal
-        - [ ] Self Hosted
-    - [ ] Front-End Receive Notifications
-    - [ ] Notification Delay Latency
-- [ ] Mapbox Testing
-    - [ ] Providers
-        - [ ] Google Maps (Android, iOS)
-        - [ ] Apple Maps (iOS)
-        - [ ] Open Street Maps (All Platforms)
-    - [ ] Map Stuff
-        - [ ] Polyline
-        - [ ] Points
+- [ ] Artists
+    - [x] get artist
+    - [x] follow artist
+    - [x] unfollow artist
+    - [ ] get tracks
+    - [ ] get fans
+
+- [ ] Tracks
+    - [x] get track
+    - [x] favorite track
+    - [x] unfavorite track
+    - [ ] add to playlist
+
+- [ ] Playlists
+    - [x] get playlist
+    - [x] favorite playlist
+    - [x] unfavorite playlist
+    - [ ] get playlist tracks
+    - [ ] get playlist fans
+    - [ ] get playlist radio
+
+
