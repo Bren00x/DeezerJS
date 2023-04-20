@@ -18,9 +18,9 @@ export async function getPlaylistFans(id) {
     return res;
 }
 
-export async function getPlaylistTracks(id) {
+export async function getPlaylistTracks(id, options = {}) {
     let res = await api.url(`/playlist/${id}/tracks`)
-    .query({...getToken()})
+    .query({...getToken(),...options})
     .get();
     return res;
 }

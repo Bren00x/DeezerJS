@@ -26,17 +26,17 @@ Deezer API wrapper for Browser and Node.js
     - [ ] get tracks
     - [ ] get fans
 
-- [ ] Tracks
+- [ ] Track
     - [x] get track
     - [x] favorite track
     - [x] unfavorite track
-    - [ ] add to playlist
 
 - [ ] Playlists
     - [x] get playlist
     - [x] favorite playlist
     - [x] unfavorite playlist
-    - [ ] get playlist tracks
+    - [x] get playlist tracks
+    - [ ] add to playlist
     - [ ] get playlist fans
     - [ ] get playlist radio
 

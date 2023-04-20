@@ -5,7 +5,7 @@ import * as Deezer from "./src/index.js"
 (async()=>{
 
 
-    // Deezer.setToken("")
+    // Deezer.setToken("fr4OHtMMRmx4YbU1GmApkCUnjedpXkZp78MBkXr71H1FUwv23mj")
 
     // let album = await Deezer.Album.getAlbum('302127');
     // console.log(await album.title)
@@ -23,7 +23,6 @@ import * as Deezer from "./src/index.js"
     // let track = await Deezer.Track.getTrack(1444890902)
     // console.log(track.title, track.artist.name, track.album.link)
     // console.log(track)
-
 
     // let favorite = await Deezer.Track.favoriteTrack(1444890902);
     // console.log(await favorite.title)

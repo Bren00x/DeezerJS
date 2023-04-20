@@ -24,16 +24,16 @@ export async function unfavoriteAlbum(id) {
     return res;
 }
 
-export async function getFans(id) {
+export async function getFans(id, options) {
     let res = await api.url(`/album/${id}/fans`)
-    .query({...getToken()})
+    .query({...getToken(),...options})
     .get();
     return res;
 }
 
-export async function getTracks(id) {
+export async function getTracks(id, options = {}) {
     let res = await api.url(`/album/${id}/tracks`)
-    .query({...getToken()})
+    .query({...getToken(),...options})
     .get();
     return res;
 }

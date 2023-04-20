@@ -1,7 +1,16 @@
 import { api, getToken } from "../request.js";
 
-export async function getArtist(id) {
-    let res = await api.get(`/artist/${id}`);
+export async function getArtist(id, options = {}) {
+    let res = await api.url(`/artist/${id}`)
+    .query({...getToken()})
+    .get();
+    return res;
+}
+
+export async function getArtistAlbums(id, options = {}) {
+    let res = await api.url(`/artist/${id}/albums`)
+    .query({...getToken(),...options})
+    .get();
     return res;
 }
 
