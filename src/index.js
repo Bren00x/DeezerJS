@@ -14,3 +14,5 @@ export * as Playlist from "./methods/playlist.js";
 export { Search } from "./methods/search.js";
 export * as Track from "./methods/track.js";
 export * as User from "./methods/user.js";
+
+export { authenticate } from './authenticate.js'
