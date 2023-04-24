@@ -16,8 +16,8 @@ Deezer API wrapper for Browser and Node.js
     - [x] get album
     - [x] favorite album
     - [x] unfavorite album
-    - [ ] get album tracks
-    - [ ] get album fans
+    - [x] get album tracks
+    - [x] get album fans
 
 - [ ] Artists
     - [x] get artist
@@ -26,7 +26,7 @@ Deezer API wrapper for Browser and Node.js
     - [x] get albums
     - [ ] get fans
 
-- [ ] Track
+- [x] Track
     - [x] get track
     - [x] favorite track
     - [x] unfavorite track

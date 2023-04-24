@@ -45,3 +45,11 @@ export async function unfavoritePlaylist(id) {
     .delete()
     return res;
 }
+
+export async function addToPlaylist(id, trackid) {
+    // /playlist/908622995/tracks
+    let res = await api.url(`/playlist/${id}/tracks`)
+    .query({...getToken(), ...{songs:id}})
+    .post()
+    return res;
+}
