@@ -1,6 +1,13 @@
 # DeezerJS
 Deezer API wrapper for Browser and Node.js
 ---
+⚠️ The funtions should work, index offset and other function options may not work. ⚠️
+
+Going to use what I learned to rewrite in TS and implement a different request structure.
+
+Repo: [Bren00x/DeezerTS](https://github.com/bren00x/DeezerTS)
+
+---
 
 ### **Roadmap**
 
@@ -26,7 +33,7 @@ Deezer API wrapper for Browser and Node.js
     - [x] get albums
     - [ ] get fans
 
-- [x] Track
+- [ ] Track
     - [x] get track
     - [x] favorite track
     - [x] unfavorite track
